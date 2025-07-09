@@ -1,0 +1,22 @@
+.nome-atracao {
+    text-align: center;
+}
+
+/* Centralizar as imagens */
+.imagem-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Padronizar tamanho das imagens */
+.atracoes img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Adicionar uma borda simples nas imagens */
+.atracoes img {
+    border: 2px solid #333;
+    border-radius: 8px;
+}
